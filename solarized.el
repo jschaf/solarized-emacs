@@ -1133,7 +1133,8 @@
                                                :inverse-video unspecified))))
      `(whitespace-trailing ((,class (:background unspecified :foreground ,orange-lc
                                                  :inverse-video t))))
-     `(whitespace-line ((,class (:background unspecified :foreground ,magenta
+     `(whitespace-line ((,class (:background unspecified :foreground unspecified
+                                             :underline (:style wave :color ,yellow)
                                              :inverse-video unspecified))))
      `(whitespace-space-before-tab ((,class (:background ,red-lc :foreground unspecified
                                                          :inverse-video unspecified))))
